@@ -145,6 +145,7 @@
     border-radius: 10px;
     margin-left:9vw;
     margin-top: 2vw;
+    cursor: pointer;
 }
 
 .text1{
@@ -165,6 +166,7 @@
     margin-left:62vw;
     margin-top:-56.6vh;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .img3{
@@ -173,6 +175,7 @@
     border-radius: 10px;
     margin-top: -20vh;
     margin-left: 62vw;
+    cursor: pointer;
 }
 
 .lat{
@@ -465,4 +468,51 @@
     margin-left: 1vw;
     background-color: lightpink;
     width:40px;
+}
+
+.horizontal{
+    width: 1200px;
+    margin-top:2vw;
+}
+
+.imageUrlNext{
+    width:600px;
+    margin-top: 5vw;
+    margin-left:28vw;
+    border-radius: 10px;
+}
+
+.titleNext{
+    margin-top:1vw;
+    margin-left:43vw;
+    font-family:'Baumans', cursive;
+    font-size: 30px;
+    color: orangered;
+}
+.paraNext{
+    width:400px;
+    font-family:cursive;
+    margin-left:38vw;
+    margin-top:1vw;
+    color: gray;
+}
+.dateNext{
+    margin-left:45vw;
+    font-weight: bold;
+}
+
+.catNext{
+    margin-left:47vw;
+    width: 130px;
+    font-size:25px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-bottom: 2px;
+    color: black;
+}
+
+.timingNext{
+    margin-left: 48vw;
+    color: blue;
+    font-size: 25px;
 }

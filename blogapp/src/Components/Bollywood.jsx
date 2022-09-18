@@ -3,8 +3,6 @@ import { store } from './Data';
 import './Style.css'
 import { Link } from 'react-router-dom';
 
-
-
 const Bollywood = () => {
     const [data] = useContext(store);
     return (
@@ -34,9 +32,9 @@ const Bollywood = () => {
             <div className='bolly-right'><h2 className='bHi'>Top Posts</h2><hr className='line2'></hr>
             <div className='bollytwo'>
                     {
-                        data.filter((data) => data.Category === "Bollywood").map((data) => (
+                        data.filter((data) => data.Category === "Bollywood").map((data,index) => (
                             <div className='leftData'>
-                                <div>
+                                <div key = {data.id}>
                                     <Link to={`/Bollywood/${data.id}`}>
                                         <img src = {data.image} alt = '' className='imageUrl2' />
                                     </Link>

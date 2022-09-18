@@ -1,6 +1,7 @@
 import './Style.css'
 import React,{useContext} from 'react'
 import { store } from './Data';
+import { Link } from 'react-router-dom';
 
 const Technology = () => {
     const [data] = useContext(store);
@@ -15,7 +16,9 @@ const Technology = () => {
                         data.filter((data) => data.Category === "Technology").map((data) => (
                             <div className='leftData'>
                                 <div key = {data.id}>
-                                    <img src = {data.image} alt = '' className='imageUrl3' />
+                                    <Link to={`/Technology/${data.id}`}>
+                                        <img src = {data.image} alt = '' className='imageUrl3' />
+                                    </Link>
                                     <div><h3 className='title1'>{data.Title}</h3></div>
                                     <div><p className='para1'>{data.Description}</p></div>
                                     <div><p className='cat3'>{data.Category}</p></div>
@@ -31,7 +34,9 @@ const Technology = () => {
                         data.filter((data) => data.Category === "Technology").map((data) => (
                             <div className='leftData'>
                                 <div key = {data.id}>
-                                    <img src = {data.image} alt = '' className='imageUrl2' />
+                                    <Link to={`/Technology/${data.id}`}>
+                                        <img src = {data.image} alt = '' className='imageUrl2' />
+                                    </Link>
                                     <div><h3 className='title2'>{data.Title}</h3></div>
                                     <div><p className='para2'>{data.Description}</p></div>
                                     <div><p className='cat2'>{data.Category}</p></div>

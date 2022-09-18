@@ -29,6 +29,10 @@ function App() {
       <Route path='/Category/Food' element = {< Food />} />
       <Route path='/*' element  = { <Page404 />} />
       <Route path='/Bollywood/:id' element = {<FullData/>} />
+      <Route path='/Technology/:id' element = {<FullData/>} />
+      <Route path='/Tourism/:id' element = {<FullData/>} />
+      <Route path='/Fitness/:id' element = {<FullData/>} />
+      <Route path='/Food/:id' element = {<FullData/>} />
     </Routes>
     </Data>
     </>

@@ -76,9 +76,7 @@ const Home = () => {
                         ))
                     }
             </div>
-            <div className='reviewblog'>Write something about Foods</div>
-            
-        </div>
+        </div>  
     )
 
 }

@@ -451,17 +451,6 @@
     margin-top: 4vw;
 }
 
-.reviewblog{
-    border: 2px solid black;
-    width: 400px;
-    height:500px;
-    text-align: center;
-    font-size: 25px;
-    margin-top:-80vw;
-    margin-left: 60vw;
-    background-color: lightcyan;
-}
-
 .catHome1{
     color: darkblue;
     font-weight: bold;

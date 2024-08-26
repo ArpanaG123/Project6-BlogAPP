@@ -22,7 +22,7 @@ const Data = (props) => {
         },
         {
             id:3,
-            image:"https://images.desimartini.com/media/uploads/lagaan_xlg.jpg?impolicy=dm-20210112&width=600",
+            image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSKzcTOYQ35xwSn1fbTKoVH8TBYUR8TUXxQg&s",
             Title:"LAGAAN",
             Description:"During the British Raj, a farmer named Bhuvan accepts the challenge of Captain Andrew Russell to beat his team in a game of cricket and enable his village to not pay taxes for the next three years.",
             Date:"Release:15th june,2001",
@@ -46,21 +46,21 @@ const Data = (props) => {
         },
         {
             id:6,
-            image:"https://plsadaptive.s3.amazonaws.com/eco/images/channel_content/images/aiguide.jpg",
+            image:"https://d1csarkz8obe9u.cloudfront.net/posterpreviews/artificial-intelligence-template-design-67532adc6edc589b0a1f4d94d9830a2b_screen.jpg?ts=1683515155",
             Title:"Artificial Intelligence",
             Description:"Artificial intelligence is the theory and development of computer programs that are able to do tasks and solve problems that usually require human intelligence.",
             Category:"Technology"
         },
         {
             id:7,
-            image:"https://platoonline.com/wp-content/uploads/2021/04/mhlnews_10632_blockchain_2.png",
+            image:"https://c8.alamy.com/comp/2C7846C/bitcoin-cryptocurrency-and-blockchain-network-technology-concept-icons-vector-blockchain-poster-2C7846C.jpg",
             Title:"Blockchain",
             Description:"Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network.",
             Category:"Technology"
         },
         {
             id:8,
-            image:"https://sfmagazine.com/wp-content/uploads/02_2020_techforuminside.jpg",
+            image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1VCWhURUVyUI2Py82M7u3fZvqHxNhckx6XWqyZ6g7OG_Dkt5g1EZZ82Lpe_o56FJxtso&usqp=CAU",
             Title:"Machine Learning",
             Description:"Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so.",
             Category:"Technology"
@@ -116,7 +116,7 @@ const Data = (props) => {
         },
         {
             id:16,
-            image:"https://who-euro.shorthandstories.com/stay-physically-active-during-self-quarantine/assets/uhjDCtATXT/img_64192-2560x2249.jpeg",
+            image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp4-9ABSsLf2tHri6S7TCSGeomgatu9IsKXA&s",
             Title:"Stretching",
             Category:"Fitness"
         },
